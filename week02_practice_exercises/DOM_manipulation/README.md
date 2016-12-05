@@ -17,6 +17,7 @@ Add structure to a web page from the DOM point of view. Build a page where the u
 ![](assets/asset3.png?raw=true)
 
 
-
+## Tricky Parts
+ Editing the note content
 
 
