@@ -5,7 +5,7 @@ Add structure to a web page from the DOM point of view. Build a page where the u
 **STEP ONE- ADD A NOTE**
 
 ```
-![alt text]("/assets/asset1.png")
+![](assets/asset1.png?raw=true)
 ```
 
 
