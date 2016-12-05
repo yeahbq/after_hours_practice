@@ -4,7 +4,9 @@ Add structure to a web page from the DOM point of view. Build a page where the u
 
 **STEP ONE- ADD A NOTE and UPDATE THE CURRENT NUMBER OF NOTES** ![](assets/asset1.png?raw=true)
 
+
 **STEP TWO- ADD MORE NOTES** ![](assets/asset2.png?raw=true)
+
 
 **STEP THREE- ADD AND EDIT CONTENT TO YOUR NOTES** ![](assets/asset3.png?raw=true)
 
