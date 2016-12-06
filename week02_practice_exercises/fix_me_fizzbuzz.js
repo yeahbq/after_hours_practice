@@ -1,3 +1,4 @@
+
 // Fizz buzz
 //
 // A fellow student presents you with the following code they're having problems getting to work.
