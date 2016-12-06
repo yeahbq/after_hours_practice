@@ -1,4 +1,4 @@
-console.log("afterhours.js linked!");
+console.log("afterhours.js linked! Barrett has solved 6/7 parts");
 
 ////////////////////////////////////////////////
 // Part 1: Linking
@@ -309,6 +309,15 @@ if (ticketType(tickets[i].type) === true) { //first 3 rows if true, else after 3
 //    a message for the given ticket.
 //
 //    Treat missing data as an automatic false.
+
+//  tickets = 50, 65 or 90
+//  50 = standard, 65 = premier, 90 = premier plus seating
+//  premier plus += free drinks
+
+  //if discount true, then $10 drink voucher and premier cost 80
+  //if zombie +10 to drink voucher
+
+  //for loop that goes through tickets[i].amount, tickets[i].discount, tickets[i].zombie
 //
 //    Examples:
 //    - {amount: 50.00, discount: true,  zombie: false}  => "STANDARD $10 DRINKS"
