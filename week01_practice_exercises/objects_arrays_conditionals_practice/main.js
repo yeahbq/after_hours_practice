@@ -255,8 +255,9 @@ for (var i = 0; i < talkingHeadsAlbums.length; i++ ) {
 //    Messages:
 //    "Welcome, Madeline Albright! You may sit anywhere in the first 3 rows of the right section."
 //    "Welcome, Newt Gingrich! You and your party may sit anywhere except first 3 rows of the center section.
-//     Please be sure to leave no seats between you."
+//     Pleas pare be sure to leave no seats between you."
 
+(function () {
 var tickets = [
   {name: "Boutros Boutros-Ghali", section: "center", type: "premium",  seats: 1},
   {name: "Ann Richards",          section: "left",   type: "premium",  seats: 2},
@@ -265,6 +266,30 @@ var tickets = [
   {name: "Warren Christopher",    section: "right",  type: "standard", seats: 1},
   {name: "Bob Dole",              section: "center", type: "premium",  seats: 3}
 ];
+
+var ticketType = function (type) { //creates function to check ticket type. takes tickets[i].type as param
+if (type === "premium") {
+return true
+}
+}
+
+for (var i = 0; i < tickets.length; i++) {
+console.log("Welcome, " + tickets[i].name + "!");//Prints name
+if (ticketType(tickets[i].type) === true) { //first 3 rows if true, else after 3 rows
+    if (tickets[i].seats > 1) {
+      var party = " and your party";
+        console.log("You" + party + " may sit anywhere in the first 3 rows of the " + tickets[i].section + " section.");
+    }
+  console.log("You may sit anywhere in the first 3 rows of the " + tickets[i].section + " section.");
+  } else {
+    console.log("You may sit anywhere in the except the first 3 rows of the " + tickets[i].section + " section.")
+  }
+
+}
+})();
+
+
+
 
 // 2. There is a concert at the LA County Fairgrounds by the Southland's
 //    hottest Talking Heads tribute band for zombie afficianados,
@@ -293,16 +318,16 @@ var tickets = [
 //    - {amount: 90.00}                                  => "PREMIER PLUS"
 //    - {amount: 50.00, discount: true,  zombie: true}   => "STANDARD $20 DRINKS"
 
-// var tickets = [
-//   {amount: 50.00, discount: false, zombie: true},
-//   {amount: 60.00, discount: true,  zombie: false},
-//   {amount: 50.00},
-//   {amount: 65.00, discount: true,  zombie: true},
-//   {amount: 90.00, discount: false},
-//   {amount: 50.00, discount: true,  zombie: false},
-//   {amount: 50.00, zombie:   true},
-//   {amount: 80.00, discount: true},
-//   {amount: 90.00},
-//   {amount: 50.00, discount: true}
-// ];
+var tickets = [
+  {amount: 50.00, discount: false, zombie: true},
+  {amount: 60.00, discount: true,  zombie: false},
+  {amount: 50.00},
+  {amount: 65.00, discount: true,  zombie: true},
+  {amount: 90.00, discount: false},
+  {amount: 50.00, discount: true,  zombie: false},
+  {amount: 50.00, zombie:   true},
+  {amount: 80.00, discount: true},
+  {amount: 90.00},
+  {amount: 50.00, discount: true}
+];
 
