@@ -1,21 +1,18 @@
-## CSS Day 7: Layouts
+## CSS Day 7: Sticky Header
 
-Welcome to Day 7 of your Holiday Work. Today's work again focuses on breaking down a design, but unlike the work from day 6, you will not be provided with a layout breakdown by your manager. The work below assumes you have done the all the work from days 1-6.
+Today's work brings us to the "sticky header", a design seen around the web, in which the header of a page stays at the top of the browser's viewport regardless of how far you scroll. Here's [a live example](http://www.cyrusinnovation.com/). The readings and exercises below assume you have completed the work from days 1 - 7. 
 
-#### Part 1: Revisiting Some Helpful Guidelines
+#### Part 1: A Tutorial On Stick Headers
 
-Reinforce the CSS layout guidelines from yesterday:
+First, read the text and accomanying code at [tutorial on Sticky Headers at cssreset.com](http://www.cssreset.com/creating-fixed-headers-with-css/). 
 
-1. Before coding a thing, break the layout down into its component parts.
-  - Where are the rows in the layout?
-  - Where are the columns in the layout?
-  - How are they nested?
-1. Code the outermost elements first, and work your way in.
-1. Get the *layout* of elements in place before moving on to the actual styling of elements.
+Next, watch the accompanying video turotial. 
 
-#### Part 2: Erik Iggmark's Portfolio
+After you've watched the video, read the tutorial again.
 
-Only after coding up dozens of layouts will you become comfortable working with and around CSS's quirks. Thus, today has you coding up another layout: [Erik Iggmark's Portfolio](erik_iggmark_portfolio).
+#### Part 2: Steve Zeidner's Portfolio
+
+Take what you've learned about fixing an element in the browser's viewport and complete the [Steve Zeidner exercise](steve_zeidner_portfolio).
 
 
 

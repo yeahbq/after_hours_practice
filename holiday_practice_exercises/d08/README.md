@@ -1,18 +1,18 @@
-## CSS Day 8: Sticky Header
+## CSS Day 8: Code Quality
 
-Today's work brings us to the "sticky header", a design seen around the web, in which the header of a page stays at the top of the browser's viewport regardless of how far you scroll. Here's [a live example](http://www.cyrusinnovation.com/). The readings and exercises below assume you have completed the work from days 1 - 7. 
+Today's work brings us to CSS code quality. By now, you've probably struggled with an overlarge, hard-to-navigate stylesheet or two, and you're probably eager to hear of any strategies that can help you make those stylesheets more concise/workable. Note: this work assumes you have done the work from days 1 - 7.
 
-#### Part 1: A Tutorial On Stick Headers
+#### Part 1: A Reading On CSS Shorthand
 
-First, read the text and accomanying code at [tutorial on Sticky Headers at cssreset.com](http://www.cssreset.com/creating-fixed-headers-with-css/). 
+[Read this awesome, thorough breakdown of CSS shorthand properties](http://www.456bereastreet.com/archive/200502/efficient_css_with_shorthand_properties/). 
 
-Next, watch the accompanying video turotial. 
+#### Part 2: Organizing Your Declarations
 
-After you've watched the video, read the tutorial again.
+Different dev teams have different rules for how they want their stylesheets organized. This is so that a team member who starts working on something you worked on months ago can quickly acclimate to the file and do what he needs to do. [Take a look at some of the most common means of organizing stylesheets](http://css-tricks.com/new-poll-how-order-css-properties/), and choose the method that you think best suits your needs. __Note:__ Our personal preference here at GA is a mixture of __Grouped By Type__ and __Alphabetical__. 
 
-#### Part 2: Steve Zeidner's Portfolio
+#### Part 3: ecard.ly
 
-Take what you've learned about fixing an element in the browser's viewport and complete the [Steve Zeidner exercise](steve_zeidner_portfolio).
+Apply the lessons learned above in completing [ecard.ly](ecardly).
 
 
 

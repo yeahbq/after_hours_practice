@@ -1,4 +1,4 @@
-## CSS Day 5: Margin
+## CSS Day 4: Margin
 
 Welcome to Day 5 of your Holiday Work. The work below focuses on the `margin` property: why you should use it in place of `position`, and how it works to help you center your divs. The work below relies on you having done the previous days' work, so do days 1-4 before tackling the readings/exercises below.
 
